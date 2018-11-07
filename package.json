@@ -1,0 +1,29 @@
+{
+  "name": "json-schema-checker",
+  "version": "1.0.0",
+  "description": "CLI tool to check your JSON schemas.",
+  "main": "index.js",
+  "bin": "bin.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pfrazee/json-schema-checker.git"
+  },
+  "keywords": [
+    "json",
+    "schema",
+    "lint"
+  ],
+  "author": "Paul Frazee <pfrazee@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pfrazee/json-schema-checker/issues"
+  },
+  "homepage": "https://github.com/pfrazee/json-schema-checker#readme",
+  "dependencies": {
+    "ajv": "^6.5.5",
+    "figures": "^2.0.0"
+  }
+}
